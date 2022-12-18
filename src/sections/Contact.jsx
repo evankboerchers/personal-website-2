@@ -1,8 +1,5 @@
 import React, { useRef } from 'react';
-import Section from '../components/Section';
 import SectionHeader from '../components/SectionHeader';
-import { AiOutlineLinkedin } from 'react-icons/ai';
-import { AiFillGithub } from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 
@@ -64,7 +61,7 @@ const Contact = () => {
       setSubError(false);
       console.log(errors);
       console.log(subError);
-      // sendEmail(e)
+      sendEmail(e);
       setFields({ name: '', email: '', message: '' });
       console.log(errors);
       console.log(subError);

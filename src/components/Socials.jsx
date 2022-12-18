@@ -18,6 +18,7 @@ const Socials = () => {
             class="bg-linkedin rounded-full p-2 shadow-md border-2 border-transparent hover:border-selected-text"
             href="https://www.linkedin.com/in/evan-boerchers/"
             target="_blank"
+            rel="noreferrer"
           >
             <AiFillLinkedin class="fill-white" size="2rem" />
           </a>
@@ -25,6 +26,7 @@ const Socials = () => {
             class="bg-github rounded-full p-2 shadow-md border-2 border-transparent hover:border-selected-text"
             href="https://github.com/evankboerchers"
             target="_blank"
+            rel="noreferrer"
           >
             <AiFillGithub class="fill-white" size="2rem" />
           </a>

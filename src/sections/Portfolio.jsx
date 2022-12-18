@@ -1,5 +1,4 @@
 import React from 'react';
-import Section from '../components/Section';
 import SectionHeader from '../components/SectionHeader';
 import PortfolioTile from '../components/portfolio/PortfolioTile';
 

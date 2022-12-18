@@ -24,7 +24,7 @@ const Experience = () => {
                 <button
                   class={`text-center text-lg items-center p-4 hover:text-selected-text 
                   border-l-2  ${
-                    currentPanel == 0
+                    currentPanel === 0
                       ? 'border-selected-text'
                       : 'border-text-secondary'
                   }`}
@@ -35,7 +35,7 @@ const Experience = () => {
                 <button
                   class={`text-center text-lg items-center p-4 hover:text-selected-text 
                    border-l-2  ${
-                     currentPanel == 1
+                     currentPanel === 1
                        ? 'border-selected-text'
                        : 'border-text-secondary'
                    }`}
@@ -46,7 +46,7 @@ const Experience = () => {
                 <button
                   class={`text-center text-lg items-center p-4 hover:text-selected-text 
                 border-l-2  ${
-                  currentPanel == 2
+                  currentPanel === 2
                     ? 'border-selected-text'
                     : 'border-text-secondary'
                 }`}

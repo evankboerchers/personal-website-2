@@ -1,16 +1,15 @@
 import React from 'react';
 import { SectionHeader } from '../components/SectionHeader';
-import Section from '../components/Section';
 import portrait from '../assets/portrait_1.png';
-import { HiBookOpen, HiOutlineDatabase } from 'react-icons/hi';
+import { HiBookOpen } from 'react-icons/hi';
 import { IoBarbellOutline } from 'react-icons/io5';
-import { BsGearFill, BsFillSuitSpadeFill, BsSuitSpade } from 'react-icons/bs';
 import { SiHiveBlockchain } from 'react-icons/si';
-import { BiBook, BiNetworkChart } from 'react-icons/bi';
+import { BiNetworkChart } from 'react-icons/bi';
 import { GiQueenCrown } from 'react-icons/gi';
 import { HiLightBulb } from 'react-icons/hi';
 import { FaBookReader } from 'react-icons/fa';
 import { RiTeamFill } from 'react-icons/ri';
+import { BsGearFill } from 'react-icons/bs';
 
 const About = () => {
   return (
@@ -22,7 +21,11 @@ const About = () => {
             <div class="flex mt-12 flex-col lg:flex-row">
               <div class="flex flex-row justify-center items-center lg:flex-col">
                 <div class="w-48 h-48 lg:w-64 lg:h-64 mx-6 lg:mx-0 lg:my-6 rounded-full border-theme border-8 border-opacity-60 shadow-2xl">
-                  <img class="rounded-full object-top " src={portrait}></img>
+                  <img
+                    class="rounded-full object-top"
+                    alt="Evan Boerchers"
+                    src={portrait}
+                  ></img>
                 </div>
                 <div class="w-72 xl:w-96 text-center">
                   <h1 class="text-text-secondary text-2xl mb-2">Who am I?</h1>
