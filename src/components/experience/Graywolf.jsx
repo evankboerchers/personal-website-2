@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 const Graywolf = () => {
   return (
