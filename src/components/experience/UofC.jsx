@@ -11,29 +11,17 @@ const UofC = () => {
         rebuild existing backend service architecture. Focused on how to
         implement Java's Spring framework to fullfile product requirements.
       </p>
-      <ul class="space-y-2 list-none list-inside mt-2">
-        <li class="flex flex-row items-center">
-          <MdOutlineKeyboardArrowRight
-            class="fill-selected-text mr-4"
-            size="1.25rem"
-          />
+      <ul class="space-y-2 list-disc mt-2 ml-4">
+        <li>
           Built backend service framework based on existing specification with
           Spring. Focused on using Spring to find optimal solutions to fullfill
           requirements.
         </li>
-        <li class="flex flex-row items-center">
-          <MdOutlineKeyboardArrowRight
-            class="fill-selected-text mr-4"
-            size="1.25rem"
-          />
+        <li>
           Tackled challenging problems such as per method authorization and data
           sharding.
         </li>
-        <li class="flex flex-row items-center">
-          <MdOutlineKeyboardArrowRight
-            class="fill-selected-text mr-4"
-            size="1.25rem"
-          />
+        <li>
           Presented findings on viability and usability of Spring to engineering
           team hoping to adopt it as a part of a new tech stack. Our
           reccomendations proved useful in the decision making process.

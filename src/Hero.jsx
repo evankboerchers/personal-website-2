@@ -1,5 +1,6 @@
 import React from 'react';
 import Graphic from './components/Graphic';
+import { Link } from 'react-scroll';
 const Hero = () => {
   return (
     <section id="home">
@@ -12,7 +13,18 @@ const Hero = () => {
             <h2 class="text-text-secondary text-4xl">
               I am a software engineer
             </h2>
-            <button class="mt-8 px-6 py-2 bg-theme">About me</button>
+            <button class="mt-8 px-6 py-2 bg-theme">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={200}
+              >
+                About me
+              </Link>
+            </button>
           </div>
         </div>
         <div class="absolute h-48 w-48 md:h-64 md:w-64 top-1/2 transform -translate-y-72 right-6">

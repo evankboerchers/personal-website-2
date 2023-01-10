@@ -40,7 +40,7 @@ const About = () => {
               <div class="flex flex-col items-center justify-center m-0 mt-12 lg:mt-0 lg:ml-16 xl:ml-32">
                 <div class="flex flex-row">
                   <div class="flex flex-col items-center">
-                    <div class="bg-red-500 rounded-full p-3">
+                    <div class="bg-blue-600 rounded-full p-3">
                       <HiLightBulb size="3rem" />
                     </div>
                     <div class="mt-2">Problem Solver</div>
@@ -49,7 +49,7 @@ const About = () => {
                     </div>
                   </div>
                   <div class="flex flex-col items-center mx-4">
-                    <div class="bg-blue-500 rounded-full p-3">
+                    <div class="bg-blue-600 rounded-full p-3">
                       <FaBookReader size="3rem" />
                     </div>
                     <div class="mt-2">Learner</div>
@@ -58,7 +58,7 @@ const About = () => {
                     </div>
                   </div>
                   <div class="flex flex-col items-center">
-                    <div class="bg-yellow-500 rounded-full p-3">
+                    <div class="bg-blue-600 rounded-full p-3">
                       <RiTeamFill size="3rem" />
                     </div>
                     <div class="mt-2">Collaborator</div>
