@@ -57,7 +57,7 @@ const Portfolio = () => {
               <div></div>
               <PortfolioTile
                 title="Grocer iOS app"
-                description="simple iOS for keeping a grocery list."
+                description="Simple iOS app for keeping a grocery list."
                 tags={['Swift', 'iOS']}
                 main="https://github.com/evankboerchers/GroceriOSApp"
                 github="https://github.com/evankboerchers/GroceriOSApp"

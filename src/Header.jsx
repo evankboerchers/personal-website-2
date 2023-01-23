@@ -85,7 +85,7 @@ const Header = () => {
                   to="portfolio"
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={50}
                   duration={200}
                 >
                   Portfolio

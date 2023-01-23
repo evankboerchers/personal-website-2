@@ -13,7 +13,7 @@ const Hero = () => {
             <h2 class="text-text-secondary text-4xl">
               I am a software engineer
             </h2>
-            <button class="mt-8 px-6 py-2 bg-theme">
+            <button class="mt-8 px-6 py-2 bg-theme hover:text-selected-text">
               <Link
                 activeClass="active"
                 to="about"
