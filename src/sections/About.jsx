@@ -19,7 +19,7 @@ const About = () => {
           <div>
             <SectionHeader title="About" />
             <div class="flex mt-12 flex-col lg:flex-row">
-              <div class="flex flex-row justify-center items-center lg:flex-col">
+              <div class="flex flex-col sm:flex-row justify-center items-center lg:flex-col">
                 <div class="w-48 h-48 lg:w-64 lg:h-64 mx-6 lg:mx-0 lg:my-6 rounded-full border-theme border-8 border-opacity-60 shadow-2xl">
                   <img
                     class="rounded-full object-top"
@@ -31,14 +31,14 @@ const About = () => {
                   <h1 class="text-text-secondary text-2xl mb-2">Who am I?</h1>
                   <p>
                     Hi, im Evan. I am a software engineer from Calgary, Alberta,
-                    Canada. I have spent the past 2 years building web API’s and
-                    data analytics. I am particularly interested in AI and Web3,
-                    and am always looking for new projects!
+                    Canada. I have spent the past 2 years building web API’s,
+                    data analytics and web apps. I am excited for the future of
+                    AI and Web3!
                   </p>
                 </div>
               </div>
               <div class="flex flex-col items-center justify-center m-0 mt-12 lg:mt-0 lg:ml-16 xl:ml-32">
-                <div class="flex flex-row">
+                <div class="flex flex-col space-y-3 sm:space-y-0 sm:flex-row">
                   <div class="flex flex-col items-center">
                     <div class="bg-blue-600 rounded-full p-3">
                       <HiLightBulb size="3rem" />
@@ -67,7 +67,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                <div class="flex flex-row mt-6">
+                <div class="flex flex-col sm:flex-row mt-6">
                   <div>
                     <div class="ml-1">Skills</div>
                     <div class="w-full h-0.5 bg-text-secondary"></div>
@@ -110,7 +110,7 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="ml-12">
+                  <div class="mt-4 sm:mt-0 sm:ml-12">
                     <div class="ml-1">Interests</div>
                     <div class="w-full h-0.5 bg-text-secondary"></div>
                     <div class="grid grid-cols-2 space-x-3 mt-1">

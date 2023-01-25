@@ -12,7 +12,7 @@ const Portfolio = () => {
       <div class="py-32 bg-body">
         <div class="container mx-auto relative flex flex-col items-center justify-center px-8 md:px-8 lg:px-24 w-full">
           <SectionHeader title="Portfolio" />
-          <div class="grid grid-cols-3 w-full auto-cols-max mt-12 gap-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full auto-cols-max mt-12 gap-4">
             <div class="flex flex-col">
               <div></div>
               <PortfolioTile

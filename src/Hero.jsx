@@ -27,7 +27,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div class="absolute h-48 w-48 md:h-64 md:w-64 top-1/2 transform -translate-y-72 right-6">
+        <div class="absolute h-48 w-48 md:h-52 md:w-52 lg:h-64 lg:w-64 top-1/2 transform -translate-y-72 right-6">
           <Graphic />
         </div>
       </div>

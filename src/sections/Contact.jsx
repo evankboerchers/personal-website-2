@@ -7,7 +7,7 @@ const Contact = () => {
       <div class="py-12 bg-body-3">
         <div class="container mx-auto relative flex flex-col items-center justify-center px-8 md:px-8 lg:px-24 w-full">
           <SectionHeader title="Contact" />
-          <div class="mt-6 text-lg w-96 text-center">
+          <div class="mt-6 text-lg sm:w-96 text-center">
             Have an interesting opportunity? A question? Book recommendation?
             Just want to say hi? Shoot me a message!
           </div>

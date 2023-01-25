@@ -41,7 +41,7 @@ const Header = () => {
       <div class="pt-6 px-8 md:px-8 lg:px-24 w-full">
         <div class={`${showMenu ? 'pb-0' : 'pb-6'}`}>
           <div class="container flex justify-between items-center mx-auto">
-            <div class="text-3xl font-mr-bedfort text-selected-text cursor-pointer">
+            <div class="text-2xl md:text-3xl font-mr-bedfort text-selected-text cursor-pointer">
               <Link
                 activeClass="active"
                 to="home"

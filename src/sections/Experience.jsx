@@ -19,11 +19,11 @@ const Experience = () => {
         <div class="container mx-auto relative flex items-center justify-center px-8 md:px-8 lg:px-24 w-full">
           <div class="w-full lg:w-3/4">
             <SectionHeader title="Experience" />
-            <div class="flex flex-row bg-tile mt-4 rounded-md">
-              <div class="flex flex-col w-32">
+            <div class="flex flex-col md:flex-row bg-tile mt-8 rounded-md">
+              <div class="flex flex-row md:flex-col md:w-32">
                 <button
-                  class={`text-center text-lg items-center p-4 hover:text-selected-text 
-                  border-l-2  ${
+                  class={`text-center text-lg items-center p-4 hover:text-selected-text border-t-2
+                  md:border-l-2 md:border-t-0  ${
                     currentPanel === 0
                       ? 'border-selected-text'
                       : 'border-text-secondary'
@@ -33,19 +33,19 @@ const Experience = () => {
                   Graywolf Analytics
                 </button>
                 <button
-                  class={`text-center text-lg items-center p-4 hover:text-selected-text 
-                   border-l-2  ${
-                     currentPanel === 1
-                       ? 'border-selected-text'
-                       : 'border-text-secondary'
-                   }`}
+                  class={`text-center text-lg items-center p-4 hover:text-selected-text border-t-2 
+                  md:border-l-2 md:border-t-0 ${
+                    currentPanel === 1
+                      ? 'border-selected-text'
+                      : 'border-text-secondary'
+                  }`}
                   onClick={() => setCurrentPanel(1)}
                 >
                   University of Calgary
                 </button>
                 <button
-                  class={`text-center text-lg items-center p-4 hover:text-selected-text 
-                border-l-2  ${
+                  class={`text-center text-lg items-center p-4 hover:text-selected-text border-t-2 
+                md:border-l-2 md:border-t-0 ${
                   currentPanel === 2
                     ? 'border-selected-text'
                     : 'border-text-secondary'
@@ -55,7 +55,7 @@ const Experience = () => {
                   Warrior
                 </button>
               </div>
-              <div class="p-16 w-full">{panels[currentPanel]}</div>
+              <div class="p-8 md:p-16 w-full">{panels[currentPanel]}</div>
             </div>
           </div>
         </div>
